@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Header from './componentes/topo/Header.js';
+import PrimeiraSecao from './componentes/pagina/PrimeiraSecao.js';
+import SegundaSecao from './componentes/pagina/SegundaSecao.js';
+import TerceiraSecao from './componentes/pagina/TerceiraSecao.js';
+import Contato from './componentes/pagina/Contato.js';
+import Rodape from './componentes/rodape/Footer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <PrimeiraSecao />
+      <SegundaSecao />
+      <TerceiraSecao />
+      <Contato />
+      <Rodape />
     </div>
   );
 }

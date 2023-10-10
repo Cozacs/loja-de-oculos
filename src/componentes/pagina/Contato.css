@@ -1,0 +1,35 @@
+#contato {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 5vh;
+}
+
+#contate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+    gap: 20px;
+}
+
+.tabelaContato {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: auto;
+    color: #fff;
+    text-align: left;
+}
+
+.tabelaContato img {
+    width: 30px;
+    height: 30px;
+}
+
+.infos {
+    display: flex;
+}

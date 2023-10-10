@@ -1,0 +1,116 @@
+#oculos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#oculos p {
+    font-size: 1.3em;
+}
+
+#oculos h2 {
+    font-size: 1.8em;
+}
+
+.quadro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    height: 80vh;
+    margin: auto;
+    gap: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    min-width: 200px;
+    width: 49%;
+    height: 50%;
+}
+
+.card p{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.card span{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+#grau {
+    background-image: url("../../medias/imagens/oculos01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#transition {
+    background-image: url("../../medias/imagens/oculos02.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#sol {
+    background-image: url("../../medias/imagens/oculos03.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#infantil {
+    background-image: url("../../medias/imagens/oculos04.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+li {
+    text-align: justify;
+}
+
+@media screen and (max-width: 430px) {
+    .quadro {
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #oculos p {
+        font-size: 2em;
+    }
+    
+    #oculos h2 {
+        font-size: 2.5em;
+    }
+
+    .card {
+        width: 49%;
+        max-width: 900px;
+        height: 50%;
+    }
+    
+    .card p{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    
+    .card span{
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    li {
+        text-align: justify;
+        font-size: 2em;
+    }
+}

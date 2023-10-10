@@ -1,0 +1,51 @@
+.texto-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-height: 450px;
+    height: 50vh;
+    background-image: url("../../medias/imagens/capa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#escrita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #01021600;
+    color: white;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+#escrita p {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+#escrita h1 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 669px) {
+    #escrita {
+        background-color: #0102164d;
+        color: white;
+        width: 100%;
+        height: 60%;
+        border-radius: 5px;
+    }
+    #escrita p {
+        font-size: 1.5em;
+    }
+    #escrita h1 {
+        font-size: 2em;
+    }
+}
